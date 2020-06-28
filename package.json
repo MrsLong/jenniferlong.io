@@ -1,0 +1,38 @@
+{
+  "name": "jenniferlong.io",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrsLong/jenniferlong.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrsLong/jenniferlong.io/issues"
+  },
+  "homepage": "https://github.com/MrsLong/jenniferlong.io#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "parcel": "^2.0.0-alpha.3.2",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "sass": "^1.26.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "singleQuote": true,
+    "editor.formatOnSave": true
+  }
+}
