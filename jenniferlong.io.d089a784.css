@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards {
+  display: grid;
+  min-height: 100vh;
+}
+@media (min-width: 960px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  grid-column: 1/span 2;
+  background-color: #F9EDDD;
+  align-items: center;
+  font-size: large;
+}
+
+.career {
+  background-color: #E6AACE;
+}
+
+.location {
+  background-color: #84ACCE;
+}
+
+.hobbies {
+  background-color: #86C187;
+}
+
+.contact {
+  background-color: #F9EDDD;
+}
+/*# sourceMappingURL=jenniferlong.io.d089a784.css.map */

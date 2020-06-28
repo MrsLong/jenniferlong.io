@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(75deg, #E6AACE calc(50%), #F9EDDD calc(50%));
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+  transform: skewY(75deg);
+}
+
+.greeting {
+  font-size: 3rem;
+  margin: 0 2rem;
+}
+/*# sourceMappingURL=jenniferlong.io.1a53367d.css.map */

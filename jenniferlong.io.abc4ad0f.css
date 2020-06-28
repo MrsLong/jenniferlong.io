@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F9EDDD;
+}
+
+.container {
+  display: grid;
+  min-height: 100vh;
+}
+
+.card {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  align-items: center;
+  font-size: large;
+}
+
+.career {
+  background-color: #E6AACE;
+}
+
+.location {
+  background-color: #84ACCE;
+}
+
+.hobbies {
+  background-color: #86C187;
+}
+
+.contact {
+  background-color: #E6AACE;
+}
+/*# sourceMappingURL=jenniferlong.io.abc4ad0f.css.map */

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.cards {
+  display: grid;
+}
+@media (min-width: 960px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  padding: 3rem;
+}
+
+.hello {
+  grid-column: 1/span 2;
+  background-color: #F9EDDD;
+}
+
+.career {
+  background-color: #84ACCE;
+}
+
+.location {
+  background-color: #E6AACE;
+}
+
+.hobbies {
+  background-color: #86C187;
+}
+
+.contact {
+  background-color: #F9EDDD;
+}
+/*# sourceMappingURL=jenniferlong.io.09916f73.css.map */

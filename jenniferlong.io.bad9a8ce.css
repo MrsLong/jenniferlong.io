@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F9EDDD;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.art-bubble-1 {
+  height: 160vh;
+  width: 160vw;
+  position: fixed;
+  bottom: -80vh;
+  right: -80vw;
+  background-color: #E6AACE;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=jenniferlong.io.bad9a8ce.css.map */

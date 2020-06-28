@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(80deg, #E6AACE calc(50%), #F9EDDD calc(50%));
+  height: 100vh;
+}
+
+.greeting {
+  font-size: 3rem;
+  margin: 0 2rem;
+}
+/*# sourceMappingURL=jenniferlong.io.49c0c9f1.css.map */

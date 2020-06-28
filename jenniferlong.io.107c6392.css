@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F9EDDD;
+}
+
+.hello {
+  font-size: 4rem;
+}
+
+.art-bubble-1 {
+  height: 170vh;
+  width: 170vw;
+  position: fixed;
+  bottom: -85vh;
+  right: -85vw;
+  background-color: #E6AACE;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=jenniferlong.io.107c6392.css.map */

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F9EDDD;
+}
+
+.container {
+  background: linear-gradient(to top left, #E6AACE calc(50%), #F9EDDD calc(50%));
+}
+
+.greeting {
+  font-size: 3rem;
+  margin: 2rem;
+}
+/*# sourceMappingURL=jenniferlong.io.a82b161f.css.map */

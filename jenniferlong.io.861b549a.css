@@ -1,0 +1,13 @@
+html {
+  background-color: #F9EDDD;
+}
+
+.cards {
+  display: grid;
+}
+@media (min-width: 960px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/*# sourceMappingURL=jenniferlong.io.861b549a.css.map */

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "big_john_probold";
+  src: url("bigjohnpro-bold-webfont.c52b3478.woff2") format("woff2"), url("bigjohnpro-bold-webfont.f29561ad.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "big_john_prolight";
+  src: url("bigjohnpro-light-webfont.263de76f.woff2") format("woff2"), url("bigjohnpro-light-webfont.538ad332.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  background: linear-gradient(90deg, #8b0000 calc(50%), #f9eddd calc(50%));
+  height: 100vh;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+}
+
+.greeting {
+  font-size: 3rem;
+  font-family: "big_john_probold";
+  text-align: right;
+  margin-right: 1rem;
+  color: #f9eddd;
+}
+
+.copy {
+  font-family: "big_john_prolight";
+  width: 90%;
+  margin-left: 1rem;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  body {
+    margin: 0;
+    background: linear-gradient(187deg, #8b0000 calc(50%), #f9eddd calc(50%));
+  }
+
+  .greeting {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=jenniferlong.io.4197a0c4.css.map */

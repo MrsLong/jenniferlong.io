@@ -1,0 +1,9 @@
+html {
+  background-color: #F9EDDD;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}
+/*# sourceMappingURL=jenniferlong.io.bd006734.css.map */
